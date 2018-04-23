@@ -5,6 +5,7 @@
     <groupId>com.sdua.api</groupId>
     <artifactId>sduaApi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <!--<packaging>jar</packaging>-->
     <packaging>jar</packaging>
 
     <name>SDUAAPI</name>

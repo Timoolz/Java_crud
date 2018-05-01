@@ -1,0 +1,16 @@
+# Database settings.
+database:
+  driverClass: org.mariadb.jdbc.Driver
+  user: laleyeol
+  password: G38mQl11eb
+  url: jdbc:mariadb://164.160.128.116/laleyeol_sdua
+
+swagger:
+  resourcePackage: com.sdua.api.resource
+  uriPrefix: /sduaapi/v1
+  title: Software Developement Utility app API Endpoints
+  description: This is the listing of all the API endpoints of Software Developement Utility app back end. It lists resource details, operations supported, access methods and request/response format.
+server:
+  rootPath: /sduaapi/v1
+config:
+  appBaseUrl: https://java-crud.herokuapp.com

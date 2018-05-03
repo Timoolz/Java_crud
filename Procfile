@@ -1,1 +1,1 @@
-web: java -jar target/sduaApi-0.0.1-SNAPSHOT.jar server staging.config.yaml
+web: javaasasas -jar target/sduaApi-0.0.1-SNAPSHOT.jar server staging.config.yaml

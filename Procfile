@@ -1,1 +1,1 @@
-web:  java -jar target/sduaApi-0.0.1-SNAPSHOT.jar server staging.config.yaml
+web:  java -jar target/sduaApi-0.0.1-SNAPSHOT.jar server staging.config.yamlweb:  java $JAVA_OPTS -Ddw.http.port=$PORT -Ddw.http.adminPort=$PORT -jar target/sduaApi-0.0.1-SNAPSHOT.jar server staging.config.yaml

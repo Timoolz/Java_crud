@@ -13,4 +13,5 @@ swagger:
 server:
   rootPath: ${ROOTPATH}
 config:
-  appBaseUrl: ${APPBASEURL}
+  allowedOrigin: all
+#  appBaseUrl: ${APPBASEURL}

@@ -12,7 +12,7 @@ swagger:
   description: This is the listing of all the API endpoints of Software Developement Utility app back end. It lists resource details, operations supported, access methods and request/response format.
 server:
   rootPath: ${ROOTPATH}
-  type: simple
+  type: default
   connector:
        type: http
        port: 8080

@@ -11,10 +11,9 @@ swagger:
   title: Software Developement Utility app API Endpoints
   description: This is the listing of all the API endpoints of Software Developement Utility app back end. It lists resource details, operations supported, access methods and request/response format.
 server:
-  rootPath: ${ROOTPATH}
-  server:
-    adminMinThreads: 1
-    adminMaxThreads: 64
+    rootPath: ${ROOTPATH}
+#    adminMinThreads: 1
+#    adminMaxThreads: 64
     applicationConnectors:
 
         type: https

@@ -14,7 +14,7 @@ server:
   rootPath: ${ROOTPATH}
   type: simple
   connector:
-       type: https
+       type: http
        port: 8080
 config:
   allowedOrigin: all

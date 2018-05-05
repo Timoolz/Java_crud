@@ -11,22 +11,12 @@ swagger:
   title: Software Developement Utility app API Endpoints
   description: This is the listing of all the API endpoints of Software Developement Utility app back end. It lists resource details, operations supported, access methods and request/response format.
 server:
-    rootPath: ${ROOTPATH}
-#    adminMinThreads: 1
-#    adminMaxThreads: 64
-    applicationConnectors:
+  rootPath: ${ROOTPATH}
+  type: simple
+  connector:
+       type: http
+       port: 8080
 
-        type: https
-        port: 8443
-        keyStorePath: example.keystore
-        keyStorePassword: example
-        validateCerts: false
-    adminConnectors:
-        type: https
-        port: 8444
-        keyStorePath: example.keystore
-        keyStorePassword: example
-        validateCerts: false
 config:
   allowedOrigin: all
   appBaseUrl: ${APPBASEURL}

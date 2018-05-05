@@ -14,11 +14,11 @@ server:
   rootPath: ${ROOTPATH}
   applicationConnectors:
       - type: https
-        port: $PORT
+        port: ${PORT}
         validateCerts: false
   adminConnectors:
       - type: http
-        port: $PORT
+        port: ${PORT}
       - type: https
         port: $PORT
 

@@ -13,15 +13,12 @@ swagger:
 server:
   rootPath: ${ROOTPATH}
   applicationConnectors:
-      - type: https
+        type: https
         port: 8080
         validateCerts: false
   adminConnectors:
-      - type: http
+        type: https
         port: 8081
-      - type: https
-        port: 8081
-
 config:
   allowedOrigin: all
   appBaseUrl: ${APPBASEURL}

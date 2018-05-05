@@ -13,8 +13,8 @@ swagger:
 server:
   rootPath: ${ROOTPATH}
   server:
-#    adminMinThreads: 1
-#    adminMaxThreads: 64
+    adminMinThreads: 1
+    adminMaxThreads: 64
     applicationConnectors:
 
         type: https

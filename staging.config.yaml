@@ -24,4 +24,4 @@ server:
 
 config:
   allowedOrigin: all
-  appBaseUrl: ${APPBASEURL}
+#  appBaseUrl: ${APPBASEURL}

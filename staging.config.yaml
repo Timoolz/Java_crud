@@ -16,6 +16,8 @@ server:
   connector:
        type: http
        port: 8080
+       keyStorePath: example.keystore
+       keyStorePassword: example
 config:
   allowedOrigin: all
   appBaseUrl: ${APPBASEURL}

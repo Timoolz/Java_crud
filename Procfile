@@ -1,1 +1,1 @@
-web:  java $JAVA_OPTS -Ddw.server.applicationConnectors[0].port=$PORT -Ddw.server.adminConnectors[0].port=$PORT  -Ddw.server.applicationConnectors[1].port=$PORT -Ddw.server.adminConnectors[1].port=$PORT -jar target/sduaApi-0.0.1-SNAPSHOT.jar server staging.config.yaml
+web:  java $JAVA_OPTS -Ddw.server.applicationConnectors[0].port=$PORT -Ddw.server.adminConnectors[2].port=$PORT  -Ddw.server.applicationConnectors[1].port=$PORT -Ddw.server.adminConnectors[1].port=$PORT -jar target/sduaApi-0.0.1-SNAPSHOT.jar server staging.config.yaml

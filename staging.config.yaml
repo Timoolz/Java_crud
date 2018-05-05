@@ -14,14 +14,14 @@ server:
   rootPath: ${ROOTPATH}
   applicationConnectors:
       - type: https
-#        port: ${PORT}
+        port: 8080
         validateCerts: false
   adminConnectors:
       - type: http
-#        port: ${PORT}
+        port: 8081
       - type: https
-#        port: $PORT
+        port: 8081
 
 config:
   allowedOrigin: all
-#  appBaseUrl: ${APPBASEURL}
+  appBaseUrl: ${APPBASEURL}

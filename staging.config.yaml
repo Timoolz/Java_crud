@@ -3,7 +3,8 @@ database:
   driverClass: org.mariadb.jdbc.Driver
   user: ${DATABASE_USER}
   password: ${DATABASE_PASS}
-  url: ${DATABASE_URL}
+#  url: ${DATABASE_URL}
+  url: jdbc:mariadb://164.160.128.116/laleyeol_sdua
 
 swagger:
   resourcePackage: com.sdua.api.resource

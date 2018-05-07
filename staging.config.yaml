@@ -1,17 +1,17 @@
 # Database settings.
 database:
   driverClass: org.mariadb.jdbc.Driver
-  user: ${DATABASE_USER}
-  password: ${DATABASE_PASS}
-  url: ${DATABASE_URL}
+  user: myuser
+  password: mypassword
+  url: myurl
 
 swagger:
   resourcePackage: com.sdua.api.resource
-  uriPrefix: ${ROOTPATH}
+  uriPrefix: /root/path
   title: Software Developement Utility app API Endpoints
   description: This is the listing of all the API endpoints of Software Developement Utility app back end. It lists resource details, operations supported, access methods and request/response format.
 server:
-  rootPath: ${ROOTPATH}
+  rootPath: /root/path
   applicationConnectors:
       - type: http
         port: 8080
@@ -31,4 +31,4 @@ server:
 
 config:
   allowedOrigin: all
-  appBaseUrl: ${APPBASEURL}
+  appBaseUrl: /hot/url

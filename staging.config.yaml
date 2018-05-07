@@ -1,4 +1,5 @@
 # Database settings.
+# NOTE: these value will be overwritten by environment variables in the ProcFile
 database:
   driverClass: org.mariadb.jdbc.Driver
   user: myuser
@@ -13,13 +14,13 @@ swagger:
 server:
   rootPath: /root/path
   applicationConnectors:
-#      - type: http
-#        port: 8080
-      - type: https
-        port: 8443
-        keyStorePath: example.keystore
-        keyStorePassword: example
-        validateCerts: false
+      - type: http
+        port: 8080
+#      - type: https
+#       port: 8443
+#        keyStorePath: example.keystore
+#        keyStorePassword: example
+#        validateCerts: false
 #  adminConnectors:
 #      - type: http
 #        port: 8081

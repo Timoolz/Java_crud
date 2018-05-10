@@ -7,6 +7,9 @@ database:
   url: myurl
 
 swagger:
+  schemes:
+  - https
+  - http
   resourcePackage: com.sdua.api.resource
   uriPrefix: /root/path
   title: Software Developement Utility app API Endpoints
